@@ -7,7 +7,7 @@ const BottomStickyButtons = (props) => {
     const { active, setActive, allData, setData } = props
 
     return (
-        <View className="absolute bottom-20 z-20 w-full justify-center items-center">
+        <View className="absolute bottom-12 z-20 w-full justify-center items-center">
             <View className="px-2 py-2 flex-row bg-white rounded-full">
                 <BottomStickyItem
                     title="Tümü"
