@@ -4,7 +4,7 @@ import moment from 'moment';
 
 const TimeDifferenceInfo = ({ time }) => {
     return (
-        <Text>{time && moment(time).fromNow()}</Text>
+        <Text>{time && moment(time).add(3, "hour").fromNow()}</Text>
     )
 }
 

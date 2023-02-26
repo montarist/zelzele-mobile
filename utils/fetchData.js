@@ -1,11 +1,15 @@
 
 import moment from 'moment';
+import 'moment/locale/tr';
+import 'moment-timezone';
 
 export default async function fetchData(magnitude, callback, callback2 = null, setIsLoading) {
     setIsLoading(true);
     try {
+        moment.locale('tr')
+        moment().tz('Europe/Istanbul')
         const format24 = "YYYY-MM-DD HH:mm:ss"
-        const date = moment()
+        const date = moment().add(3, "hour")
         const end = date.format(format24)
         const start = date.subtract(3, 'day').format(format24)
 
