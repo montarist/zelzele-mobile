@@ -47,8 +47,8 @@ const MagnitudeInfo = ({ magnitude }) => {
     }
 
     return (
-        <View className={`rounded-xl px-2 py-1 ${magnitudeBackgroundColor}`}>
-            <Text className={`text-2xl font-bold ${textColor}`}>
+        <View className={`rounded-xl px-2 py-1 ${magnitudeBackgroundColor} min-w-[50]`}>
+            <Text className={`text-2xl font-bold text-center ${textColor}`}>
                 {Number.isInteger(+(magnitude)) ? (+(magnitude)).toFixed(1) : magnitude}
             </Text>
         </View>
