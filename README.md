@@ -1,7 +1,7 @@
 # Zelzele App - Mobile Version
-This mobile application is the mobile version of the Zelzele App, which is published on zelzele.vercel.app. The application is developed using React Native and Expo.
+This mobile application is the mobile version of the Zelzele App, which is published on [zelzele.vercel.app](https://zelzele.vercel.app). The application is developed using React Native and Expo.
 
-The app pulls the latest 100 earthquakes from AFAD and displays each earthquake with different colors on the screen based on their magnitudes. For example, earthquakes with magnitudes between 1 and 2 are displayed in gray, earthquakes between 2 and 3 are displayed in green, and earthquakes between 3 and 4 are displayed in orange. The app also helps to filter earthquakes greater than 3, greater than 4, and greater than 5 from the latest 100 earthquakes quickly.
+The app pulls the latest 100 earthquakes from AFAD and displays each earthquake with different colors on the screen based on their magnitudes. For example, earthquakes with magnitudes between 1 and 2 are displayed in light-gray, earthquakes between 2 and 3 are displayed in gray, and earthquakes between 3 and 4 are displayed in orange. The app also helps to filter earthquakes greater than 3, greater than 4, and greater than 5 from the latest 100 earthquakes quickly.
 
 # Installation
 To run this application on your local machine, follow these steps:
@@ -17,3 +17,6 @@ The app automatically pulls the latest 100 earthquakes from AFAD when you open t
 
 # Contributing
 Contributions to the project are always welcome. If you find a bug or have a feature request, please open an issue on the repository. If you want to contribute to the project, please fork the repository and create a pull request with your changes.
+
+# Acknowledgements
+I would like to thank [Adem İlter](https://github.com/ademilter) for developing the original [Zelzele App](https://github.com/ademilter/zelzele) and making it available for free. This mobile version of the app is inspired by his work.
