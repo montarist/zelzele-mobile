@@ -3,6 +3,8 @@ This mobile application is the mobile version of the Zelzele App, which is publi
 
 The app pulls the latest 100 earthquakes from AFAD and displays each earthquake with different colors on the screen based on their magnitudes. For example, earthquakes with magnitudes between 1 and 2 are displayed in light-gray, earthquakes between 2 and 3 are displayed in gray, and earthquakes between 3 and 4 are displayed in orange. The app also helps to filter earthquakes greater than 3, greater than 4, and greater than 5 from the latest 100 earthquakes quickly.
 
+![Zelzele Mobile App](https://github.com/erenkeskin/rn-earhquakes/blob/master/assets/rn-earthquake.gif)
+
 # Installation
 To run this application on your local machine, follow these steps:
 
