@@ -4,7 +4,7 @@ import moment from 'moment';
 
 const TimeInfo = ({ time }) => {
     return (
-        <Text>{time && moment(time).add(3, "hour").format("hh:mm")}</Text>
+        <Text>{time && moment(time).add(3, "hour").format("HH:mm")}</Text>
     )
 }
 
