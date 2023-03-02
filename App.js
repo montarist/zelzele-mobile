@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { SafeAreaView } from 'react-native';
+import { Platform, SafeAreaView } from 'react-native';
 
 import moment from 'moment';
 import 'moment/locale/tr';
@@ -23,7 +23,7 @@ export default function App() {
 	}, []);
 
 	return (
-		<SafeAreaView className="flex-1 bg-white">
+		<SafeAreaView className="flex-1 bg-white" style={{ paddingTop: Platform.OS === 'android' ? 35 : 0 }}>
 			<StatusBar style="auto" />
 
 			<BottomStickyButtons
