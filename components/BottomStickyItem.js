@@ -11,7 +11,7 @@ const BottomStickyItem = (props) => {
             onPress={() => {
                 setActive(index)
                 if (number) {
-                    const filteredData = allData.filter(item => parseFloat(item.magnitude) > magnitude)
+                    const filteredData = allData.filter(item => parseFloat(item.magnitude) >= magnitude)
                     setData(filteredData)
                 } else {
                     setData(allData)
