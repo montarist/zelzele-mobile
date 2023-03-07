@@ -17,6 +17,7 @@ const BottomStickyItem = (props) => {
                     setData(allData)
                 }
             }}
+            disabled={!allData}
             className="mr-2"
         >
             <View className={`flex-row items-center px-5 py-2 rounded-full
