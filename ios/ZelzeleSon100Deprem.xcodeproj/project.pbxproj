@@ -8,28 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* ZelzeleSon100DepremTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ZelzeleSon100DepremTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-ZelzeleSon100Deprem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-ZelzeleSon100Deprem.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		550FC9FF29D0E36E00CC9C93 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 550FC9EF29D0E36E00CC9C93 /* Fontisto.ttf */; };
-		550FCA0029D0E36E00CC9C93 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 550FC9F029D0E36E00CC9C93 /* Octicons.ttf */; };
-		550FCA0129D0E36E00CC9C93 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 550FC9F129D0E36E00CC9C93 /* Feather.ttf */; };
-		550FCA0229D0E36E00CC9C93 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 550FC9F229D0E36E00CC9C93 /* Entypo.ttf */; };
-		550FCA0329D0E36E00CC9C93 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 550FC9F329D0E36E00CC9C93 /* FontAwesome5_Brands.ttf */; };
-		550FCA0429D0E36E00CC9C93 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 550FC9F429D0E36E00CC9C93 /* MaterialCommunityIcons.ttf */; };
-		550FCA0529D0E36E00CC9C93 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 550FC9F529D0E36E00CC9C93 /* AntDesign.ttf */; };
-		550FCA0629D0E36E00CC9C93 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 550FC9F629D0E36E00CC9C93 /* Foundation.ttf */; };
-		550FCA0729D0E36E00CC9C93 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 550FC9F729D0E36E00CC9C93 /* Ionicons.ttf */; };
-		550FCA0829D0E36E00CC9C93 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 550FC9F829D0E36E00CC9C93 /* FontAwesome5_Solid.ttf */; };
-		550FCA0929D0E36E00CC9C93 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 550FC9F929D0E36E00CC9C93 /* FontAwesome5_Regular.ttf */; };
-		550FCA0A29D0E36E00CC9C93 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 550FC9FA29D0E36E00CC9C93 /* FontAwesome.ttf */; };
-		550FCA0B29D0E36E00CC9C93 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 550FC9FB29D0E36E00CC9C93 /* Zocial.ttf */; };
-		550FCA0C29D0E36E00CC9C93 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 550FC9FC29D0E36E00CC9C93 /* EvilIcons.ttf */; };
-		550FCA0D29D0E36E00CC9C93 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 550FC9FD29D0E36E00CC9C93 /* SimpleLineIcons.ttf */; };
-		550FCA0E29D0E36E00CC9C93 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 550FC9FE29D0E36E00CC9C93 /* MaterialIcons.ttf */; };
-		7699B88040F8A987B510C191 /* libPods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.a */; };
+		16858E6A69EDE63AC007B000 /* libPods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD007EEF0E713D1269638AD3 /* libPods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		E1292D964B6BE5EAD0489167 /* libPods-ZelzeleSon100Deprem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51ACD11D49E794DBD174BE2A /* libPods-ZelzeleSon100Deprem.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,29 +36,29 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ZelzeleSon100Deprem/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ZelzeleSon100Deprem/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ZelzeleSon100Deprem/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-ZelzeleSon100Deprem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZelzeleSon100Deprem.debug.xcconfig"; path = "Target Support Files/Pods-ZelzeleSon100Deprem/Pods-ZelzeleSon100Deprem.debug.xcconfig"; sourceTree = "<group>"; };
-		550FC9EF29D0E36E00CC9C93 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
-		550FC9F029D0E36E00CC9C93 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
-		550FC9F129D0E36E00CC9C93 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
-		550FC9F229D0E36E00CC9C93 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
-		550FC9F329D0E36E00CC9C93 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
-		550FC9F429D0E36E00CC9C93 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
-		550FC9F529D0E36E00CC9C93 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
-		550FC9F629D0E36E00CC9C93 /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
-		550FC9F729D0E36E00CC9C93 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
-		550FC9F829D0E36E00CC9C93 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
-		550FC9F929D0E36E00CC9C93 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
-		550FC9FA29D0E36E00CC9C93 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
-		550FC9FB29D0E36E00CC9C93 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
-		550FC9FC29D0E36E00CC9C93 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
-		550FC9FD29D0E36E00CC9C93 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
-		550FC9FE29D0E36E00CC9C93 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-ZelzeleSon100Deprem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZelzeleSon100Deprem.release.xcconfig"; path = "Target Support Files/Pods-ZelzeleSon100Deprem/Pods-ZelzeleSon100Deprem.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.debug.xcconfig"; path = "Target Support Files/Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests/Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-ZelzeleSon100Deprem.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZelzeleSon100Deprem.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3568022DAE0CEB7DA0F3D065 /* Pods-ZelzeleSon100Deprem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZelzeleSon100Deprem.release.xcconfig"; path = "Target Support Files/Pods-ZelzeleSon100Deprem/Pods-ZelzeleSon100Deprem.release.xcconfig"; sourceTree = "<group>"; };
+		51ACD11D49E794DBD174BE2A /* libPods-ZelzeleSon100Deprem.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZelzeleSon100Deprem.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F4383829D10497003AB409 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		55F4383929D10497003AB409 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		55F4383A29D10497003AB409 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		55F4383B29D10497003AB409 /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		55F4383C29D10498003AB409 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		55F4383D29D10498003AB409 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		55F4383E29D10498003AB409 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		55F4383F29D10498003AB409 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		55F4384029D10498003AB409 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		55F4384129D10498003AB409 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		55F4384229D10498003AB409 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		55F4384329D10498003AB409 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		55F4384429D10498003AB409 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		55F4384529D10498003AB409 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		55F4384629D10498003AB409 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		55F4384729D10498003AB409 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		6EE8C5E90CE1CB4EFC3623B4 /* Pods-ZelzeleSon100Deprem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZelzeleSon100Deprem.debug.xcconfig"; path = "Target Support Files/Pods-ZelzeleSon100Deprem/Pods-ZelzeleSon100Deprem.debug.xcconfig"; sourceTree = "<group>"; };
+		79A2F6B110F46CEAADBF0B62 /* Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.debug.xcconfig"; path = "Target Support Files/Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests/Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ZelzeleSon100Deprem/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.release.xcconfig"; path = "Target Support Files/Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests/Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.release.xcconfig"; sourceTree = "<group>"; };
+		8EDDB49CFB371F1D3842D405 /* Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.release.xcconfig"; path = "Target Support Files/Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests/Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD007EEF0E713D1269638AD3 /* libPods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -83,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.a in Frameworks */,
+				16858E6A69EDE63AC007B000 /* libPods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-ZelzeleSon100Deprem.a in Frameworks */,
+				E1292D964B6BE5EAD0489167 /* libPods-ZelzeleSon100Deprem.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,7 +102,7 @@
 		13B07FAE1A68108700A75B9A /* ZelzeleSon100Deprem */ = {
 			isa = PBXGroup;
 			children = (
-				550FCA0F29D0E87D00CC9C93 /* Fonts */,
+				55F4380729D10033003AB409 /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -133,33 +117,33 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-ZelzeleSon100Deprem.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.a */,
+				51ACD11D49E794DBD174BE2A /* libPods-ZelzeleSon100Deprem.a */,
+				DD007EEF0E713D1269638AD3 /* libPods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		550FCA0F29D0E87D00CC9C93 /* Fonts */ = {
+		55F4380729D10033003AB409 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				550FC9EF29D0E36E00CC9C93 /* Fontisto.ttf */,
-				550FC9F029D0E36E00CC9C93 /* Octicons.ttf */,
-				550FC9F129D0E36E00CC9C93 /* Feather.ttf */,
-				550FC9F229D0E36E00CC9C93 /* Entypo.ttf */,
-				550FC9F329D0E36E00CC9C93 /* FontAwesome5_Brands.ttf */,
-				550FC9F429D0E36E00CC9C93 /* MaterialCommunityIcons.ttf */,
-				550FC9F529D0E36E00CC9C93 /* AntDesign.ttf */,
-				550FC9F629D0E36E00CC9C93 /* Foundation.ttf */,
-				550FC9F729D0E36E00CC9C93 /* Ionicons.ttf */,
-				550FC9F829D0E36E00CC9C93 /* FontAwesome5_Solid.ttf */,
-				550FC9F929D0E36E00CC9C93 /* FontAwesome5_Regular.ttf */,
-				550FC9FA29D0E36E00CC9C93 /* FontAwesome.ttf */,
-				550FC9FB29D0E36E00CC9C93 /* Zocial.ttf */,
-				550FC9FC29D0E36E00CC9C93 /* EvilIcons.ttf */,
-				550FC9FD29D0E36E00CC9C93 /* SimpleLineIcons.ttf */,
-				550FC9FE29D0E36E00CC9C93 /* MaterialIcons.ttf */,
+				55F4383829D10497003AB409 /* AntDesign.ttf */,
+				55F4383C29D10498003AB409 /* Entypo.ttf */,
+				55F4383929D10497003AB409 /* EvilIcons.ttf */,
+				55F4383E29D10498003AB409 /* Feather.ttf */,
+				55F4383A29D10497003AB409 /* FontAwesome.ttf */,
+				55F4384629D10498003AB409 /* FontAwesome5_Brands.ttf */,
+				55F4383F29D10498003AB409 /* FontAwesome5_Regular.ttf */,
+				55F4384429D10498003AB409 /* FontAwesome5_Solid.ttf */,
+				55F4384329D10498003AB409 /* Fontisto.ttf */,
+				55F4383B29D10497003AB409 /* Foundation.ttf */,
+				55F4384229D10498003AB409 /* Ionicons.ttf */,
+				55F4383D29D10498003AB409 /* MaterialCommunityIcons.ttf */,
+				55F4384029D10498003AB409 /* MaterialIcons.ttf */,
+				55F4384129D10498003AB409 /* Octicons.ttf */,
+				55F4384729D10498003AB409 /* SimpleLineIcons.ttf */,
+				55F4384529D10498003AB409 /* Zocial.ttf */,
 			);
-			path = Fonts;
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -196,10 +180,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-ZelzeleSon100Deprem.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-ZelzeleSon100Deprem.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.release.xcconfig */,
+				6EE8C5E90CE1CB4EFC3623B4 /* Pods-ZelzeleSon100Deprem.debug.xcconfig */,
+				3568022DAE0CEB7DA0F3D065 /* Pods-ZelzeleSon100Deprem.release.xcconfig */,
+				79A2F6B110F46CEAADBF0B62 /* Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.debug.xcconfig */,
+				8EDDB49CFB371F1D3842D405 /* Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -211,12 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ZelzeleSon100DepremTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				3E37E626F9E28549400A0FCD /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				3761BED73A40A2FE961F8619 /* [CP] Embed Pods Frameworks */,
+				62E8324E1C053C6B11902770 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,14 +216,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ZelzeleSon100Deprem" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				53A26FDFC52DA60306A56437 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				29D30F7593EF2FF229E8422A /* [CP] Embed Pods Frameworks */,
+				75DBB74C7A01EF2774FCDCC3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,7 +240,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1210;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -298,23 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				550FC9FF29D0E36E00CC9C93 /* Fontisto.ttf in Resources */,
-				550FCA0A29D0E36E00CC9C93 /* FontAwesome.ttf in Resources */,
-				550FCA0629D0E36E00CC9C93 /* Foundation.ttf in Resources */,
-				550FCA0929D0E36E00CC9C93 /* FontAwesome5_Regular.ttf in Resources */,
-				550FCA0729D0E36E00CC9C93 /* Ionicons.ttf in Resources */,
-				550FCA0C29D0E36E00CC9C93 /* EvilIcons.ttf in Resources */,
-				550FCA0229D0E36E00CC9C93 /* Entypo.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
-				550FCA0B29D0E36E00CC9C93 /* Zocial.ttf in Resources */,
-				550FCA0D29D0E36E00CC9C93 /* SimpleLineIcons.ttf in Resources */,
-				550FCA0129D0E36E00CC9C93 /* Feather.ttf in Resources */,
-				550FCA0029D0E36E00CC9C93 /* Octicons.ttf in Resources */,
-				550FCA0329D0E36E00CC9C93 /* FontAwesome5_Brands.ttf in Resources */,
-				550FCA0529D0E36E00CC9C93 /* AntDesign.ttf in Resources */,
-				550FCA0E29D0E36E00CC9C93 /* MaterialIcons.ttf in Resources */,
-				550FCA0829D0E36E00CC9C93 /* FontAwesome5_Solid.ttf in Resources */,
-				550FCA0429D0E36E00CC9C93 /* MaterialCommunityIcons.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,7 +292,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -338,9 +306,9 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		29D30F7593EF2FF229E8422A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
@@ -355,7 +323,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZelzeleSon100Deprem/Pods-ZelzeleSon100Deprem-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+		3761BED73A40A2FE961F8619 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests/Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests/Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests/Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E37E626F9E28549400A0FCD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -377,7 +362,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		53A26FDFC52DA60306A56437 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -399,41 +384,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests/Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests/Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests/Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZelzeleSon100Deprem/Pods-ZelzeleSon100Deprem-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZelzeleSon100Deprem/Pods-ZelzeleSon100Deprem-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZelzeleSon100Deprem/Pods-ZelzeleSon100Deprem-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+		62E8324E1C053C6B11902770 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -448,6 +399,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests/Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75DBB74C7A01EF2774FCDCC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZelzeleSon100Deprem/Pods-ZelzeleSon100Deprem-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZelzeleSon100Deprem/Pods-ZelzeleSon100Deprem-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZelzeleSon100Deprem/Pods-ZelzeleSon100Deprem-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -502,8 +470,9 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.debug.xcconfig */;
+			baseConfigurationReference = 79A2F6B110F46CEAADBF0B62 /* Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -529,8 +498,9 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.release.xcconfig */;
+			baseConfigurationReference = 8EDDB49CFB371F1D3842D405 /* Pods-ZelzeleSon100Deprem-ZelzeleSon100DepremTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = ZelzeleSon100DepremTests/Info.plist;
@@ -553,14 +523,14 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-ZelzeleSon100Deprem.debug.xcconfig */;
+			baseConfigurationReference = 6EE8C5E90CE1CB4EFC3623B4 /* Pods-ZelzeleSon100Deprem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ZelzeleSon100Deprem/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Zelzele | Son 100 Deprem";
+				INFOPLIST_KEY_CFBundleDisplayName = ZelzeleSon100Deprem;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -581,13 +551,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-ZelzeleSon100Deprem.release.xcconfig */;
+			baseConfigurationReference = 3568022DAE0CEB7DA0F3D065 /* Pods-ZelzeleSon100Deprem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = ZelzeleSon100Deprem/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Zelzele | Son 100 Deprem";
+				INFOPLIST_KEY_CFBundleDisplayName = ZelzeleSon100Deprem;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
