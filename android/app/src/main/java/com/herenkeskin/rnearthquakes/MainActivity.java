@@ -1,4 +1,4 @@
-package com.rnearthquakes;
+package com.herenkeskin.rnearthquakes;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
@@ -13,7 +13,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "rnEarthquakes";
+    return "Zelzele | Son 100 Deprem";
   }
 
   /**

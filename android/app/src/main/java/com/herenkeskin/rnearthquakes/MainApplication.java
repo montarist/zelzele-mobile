@@ -1,4 +1,4 @@
-package com.rnearthquakes;
+package com.herenkeskin.rnearthquakes;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

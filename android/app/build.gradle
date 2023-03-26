@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.rnearthquakes"
+    namespace "com.herenkeskin.rnearthquakes"
     defaultConfig {
-        applicationId "com.rnearthquakes"
+        applicationId "com.herenkeskin.rnearthquakes"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
