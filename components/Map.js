@@ -10,15 +10,18 @@ const Map = ({ latitude, longitude, district }) => {
                 height: 350,
             }}
             initialRegion={{
-                latitude: latitude,
-                longitude: longitude,
+                latitude: parseFloat(latitude),
+                longitude: parseFloat(longitude),
                 latitudeDelta: 0.0922,
                 longitudeDelta: 0.0421,
             }}
         >
             <Marker
                 isPreselected={true}
-                coordinate={{ latitude: latitude, longitude: longitude }}
+                coordinate={{
+                    latitude: parseFloat(latitude),
+                    longitude: parseFloat(longitude),
+                }}
                 title={district}
             />
         </MapView>

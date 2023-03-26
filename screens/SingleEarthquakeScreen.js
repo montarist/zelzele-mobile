@@ -37,7 +37,7 @@ const SingleEarthquakeScreen = ({ route, navigation }) => {
                         <Map latitude={item.latitude} longitude={item.longitude} district={item.district} />
                     </View>
                     <View className={`flex-1 p-4 ${backgroundColor}`}>
-                        <View className={`mr-4 rounded-xl pt-4 pb-2 ${magnitudeBackgroundColor}`}>
+                        <View className={`mr-4 rounded-xl pt-4 pb-2 w-full ${magnitudeBackgroundColor}`}>
                             <Text className={`text-6xl font-bold text-center ${textColor}`}>
                                 {Number.isInteger(+(item.magnitude)) ? (+(item.magnitude)).toFixed(1) : item.magnitude}
                             </Text>
