@@ -1,9 +1,9 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const KmInfo = ({ km }) => {
+const KmInfo = ({ km, ...restProps }) => {
     return (
-        <Text>{km} km</Text>
+        <Text {...restProps}>{km} km</Text>
     )
 }
 
