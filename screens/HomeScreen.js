@@ -22,7 +22,7 @@ export default function HomeScreen() {
     }, []);
 
     return (
-        <SafeAreaView className="flex-1 bg-white">
+        <SafeAreaView className="flex-1 bg-white" r>
             <StatusBar style="auto" />
 
             {data ? (

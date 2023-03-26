@@ -1,55 +1,31 @@
-import { View, Text, TouchableOpacity } from 'react-native'
-import React from 'react'
+import { Text, TouchableOpacity } from 'react-native'
+import React, { useState, useEffect } from 'react'
+import colorFromMagnitude from '../utils/colorFromMagnitude'
 
 const ProvinceInfo = (props) => {
 
     const { item, allData, setData, setActive } = props
 
-    let textColor;
+    const [textColor, setTextColor] = useState("")
 
-    switch (Math.floor(+(item.magnitude))) {
-        case 1:
-            textColor = "text-gray-900"
-            break;
-        case 2:
-            textColor = "text-gray-900"
-            break;
-        case 3:
-            textColor = "text-orange-900"
-            break;
-        case 4:
-            textColor = "text-orange-900"
-            break;
-        case 5:
-            textColor = "text-red-900"
-            break;
-        case 6:
-            textColor = "text-red-900"
-            break;
-        case 7:
-            textColor = "text-red-900"
-            break;
-        case 8:
-            textColor = "text-red-900"
-            break;
-        case 9:
-            textColor = "text-red-900"
-            break;
-        default:
-            textColor = "text-gray-900"
-            break;
-    }
+    useEffect(() => {
+        const setColors = async () => {
+            const { textColor } = await colorFromMagnitude(item?.magnitude)
+            setTextColor(textColor)
+        }
+        setColors()
+    }, [])
 
     return (
         <TouchableOpacity
             onPress={() => {
                 setActive(0)
-                const filteredData = allData.filter(filteredItem => filteredItem.province == item.province)
+                const filteredData = allData.filter(filteredItem => filteredItem.province == item?.province)
                 setData(filteredData)
             }}
         >
             <Text className={`text-xl font-bold ${textColor}`}>
-                {item.province ? item.province : item.location}
+                {item?.province ? item?.province : item?.location}
             </Text>
         </TouchableOpacity>
     )
