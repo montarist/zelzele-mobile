@@ -1,24 +1,29 @@
 
 
-export default function colorFromMagnitude(magnitude) {
+export default async function colorFromMagnitude(magnitude) {
     let magnitudeBackgroundColor;
     let backgroundColor;
     let textColor;
 
     switch (Math.floor(+(magnitude))) {
-        case 2:
+        case 1:
             backgroundColor = "bg-gray-100"
+            magnitudeBackgroundColor = "bg-gray-200"
+            textColor = "text-gray-900"
+            break;
+        case 2:
+            backgroundColor = "bg-gray-200"
             magnitudeBackgroundColor = "bg-gray-300"
             textColor = "text-gray-900"
             break;
         case 3:
-            backgroundColor = "bg-green-100"
-            magnitudeBackgroundColor = "bg-green-200"
-            textColor = "text-green-900"
-            break;
-        case 4:
             backgroundColor = "bg-orange-100"
             magnitudeBackgroundColor = "bg-orange-200"
+            textColor = "text-orange-900"
+            break;
+        case 4:
+            backgroundColor = "bg-orange-200"
+            magnitudeBackgroundColor = "bg-orange-300"
             textColor = "text-orange-900"
             break;
         case 5:
@@ -47,11 +52,11 @@ export default function colorFromMagnitude(magnitude) {
             textColor = "text-red-900"
             break;
         default:
-            backgroundColor = "bg-gray-50"
+            backgroundColor = "bg-zinc-100"
             magnitudeBackgroundColor = "bg-gray-200"
             textColor = "text-gray-900"
             break;
     }
 
-    return [backgroundColor, magnitudeBackgroundColor, textColor]
+    return { backgroundColor, magnitudeBackgroundColor, textColor }
 }

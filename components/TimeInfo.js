@@ -2,9 +2,9 @@ import { View, Text } from 'react-native'
 import React from 'react'
 import moment from 'moment';
 
-const TimeInfo = ({ time }) => {
+const TimeInfo = ({ time, ...restProps }) => {
     return (
-        <Text>{time && moment(time).add(3, "hour").format("HH:mm")}</Text>
+        <Text {...restProps}>{time && moment(time).add(3, "hour").format("HH:mm")}</Text>
     )
 }
 

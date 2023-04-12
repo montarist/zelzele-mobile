@@ -26,13 +26,14 @@ const EarthquakeList = (props) => {
     }, [refreshing]);
 
     return (
-        <>
+        <View className="h-screen">
             {isLoading && (
                 <View className="items-center justify-center mt-6 pb-4 border-b-4 border-zinc-200">
                     <Text className="text-lg font-semibold text-red-400">Son 100 güncel deprem yükleniyor...</Text>
                 </View>
             )}
             <FlatList
+                extraData={data}
                 showsVerticalScrollIndicator={false}
                 refreshControl={
                     <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
@@ -44,7 +45,7 @@ const EarthquakeList = (props) => {
                 renderItem={({ item }) => <EarthquakeItem item={item} allData={allData} setData={setData} setActive={setActive} />}
                 keyExtractor={item => item.eventID}
             />
-        </>
+        </View>
     )
 }
 
