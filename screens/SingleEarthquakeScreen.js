@@ -1,4 +1,4 @@
-import { View, Text, Platform, SafeAreaView, StatusBar, ScrollView } from 'react-native'
+import { View, Text, SafeAreaView, StatusBar, ScrollView } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import TodayInfo from '../components/TodayInfo';
 import KmInfo from '../components/KmInfo';
@@ -6,6 +6,7 @@ import TimeInfo from '../components/TimeInfo';
 import TimeDifferenceInfo from '../components/TimeDifferenceInfo';
 import colorFromMagnitude from '../utils/colorFromMagnitude';
 import Map from '../components/Map';
+import Banner from '../components/Banner';
 
 const SingleEarthquakeScreen = ({ route, navigation }) => {
     const { item } = route.params;
@@ -60,6 +61,7 @@ const SingleEarthquakeScreen = ({ route, navigation }) => {
                             </View>
                         </View>
                     </View>
+                    <Banner />
                 </View>
             </ScrollView>
 
