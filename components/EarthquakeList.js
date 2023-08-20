@@ -1,7 +1,8 @@
-import { View, Text, RefreshControl, FlatList } from 'react-native'
+import { View, Text, RefreshControl, FlatList, Platform } from 'react-native'
 import React, { useCallback, useEffect, useState } from 'react'
 import fetchData from '../utils/fetchData';
 import EarthquakeItem from './EarthquakeItem';
+import Banner from './Banner';
 
 const EarthquakeList = (props) => {
 
@@ -38,13 +39,27 @@ const EarthquakeList = (props) => {
                 refreshControl={
                     <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
                 }
-                ListEmptyComponent={!isLoading && (<View className="items-center justify-center mt-6 pb-4 border-b-4 border-zinc-200">
-                    <Text className="text-lg font-semibold text-red-400">Bu büyüklükte bir deprem gerçekleşmedi.</Text>
-                </View>)}
+                ListEmptyComponent={
+                    !isLoading && (
+                        <View className="items-center justify-center mt-6 pb-4 border-b-4 border-zinc-200">
+                            <Text className="text-lg font-semibold text-red-400">
+                                Bu büyüklükte bir deprem gerçekleşmedi.
+                            </Text>
+                        </View>
+                    )
+                }
                 data={data}
-                renderItem={({ item }) => <EarthquakeItem item={item} allData={allData} setData={setData} setActive={setActive} />}
+                renderItem={({ item, index }) => (
+                    <>
+                        {index === 5 && (
+                            <Banner />
+                        )}
+                        <EarthquakeItem item={item} allData={allData} setData={setData} setActive={setActive} />
+                    </>
+                )}
                 keyExtractor={item => item.eventID}
             />
+
         </View>
     )
 }

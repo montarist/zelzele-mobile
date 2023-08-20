@@ -1,4 +1,8 @@
 {
-  "name": "ZelzeleSon100Deprem",
-  "displayName": "Zelzele | Son 100 Deprem"
+	"name": "ZelzeleSon100Deprem",
+	"displayName": "Zelzele | Son 100 Deprem",
+	"react-native-google-mobile-ads": {
+		"android_app_id": "ca-app-pub-8796621085179365~4284954931",
+		"ios_app_id": "ca-app-pub-8796621085179365~8096454850"
+	}
 }
